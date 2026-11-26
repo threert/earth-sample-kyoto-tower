@@ -1,0 +1,19 @@
+{
+  "format": "earthrt/place@1",
+  "id": "kyoto-tower",
+  "title": "Kyoto Tower",
+  "summary": "The white tower in front of Kyoto Station, 131 m on its nine-storey building: traced, with its deck and windows lit at night.",
+  "kind": "site",
+  "topic": "site:kyoto-tower",
+  "anchor": { "lat": 34.98758, "lon": 135.75925, "height": 0, "heightRef": "terrain", "heading": 0 },
+  "bounds": { "radius": 42 },
+  "visibleFrom": 15000,
+  "replaces": ["buildings"],
+  "minDistance": 2,
+  "content": [
+    { "type": "scene", "entry": "dist/scene.js", "source": "scene/main.ts", "fallback": "assets/models/scene.glb" }
+  ],
+  "start": { "position": [95, 45, 150], "target": [0, 70, 0] },
+  "license": "CC0-1.0",
+  "credits": []
+}
